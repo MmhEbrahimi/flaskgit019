@@ -2,3 +2,6 @@ venv/
 venv\
 .vscode/
 flask019/
+__pycache__
+mod_admin
+.env
