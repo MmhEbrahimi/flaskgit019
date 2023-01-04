@@ -7,3 +7,6 @@ app.route('/')
 def index1() :
     return 'git.'
 
+from mod_admin import admin
+
+app.register_blueprint(admin)
